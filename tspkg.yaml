@@ -18,7 +18,7 @@ extra_build_deps:
     Cython
 
 definitions:
-  - ros_dep: zoro
+  - framework: zoro
     deps:
       zoro: any
     extra_deps:
@@ -28,7 +28,7 @@ definitions:
         pyyaml
 
   - system: ubuntu-16.04
-    ros_dep: ros
+    framework: ros
     deps:
       zoro: any
     extra_deps:
@@ -37,7 +37,7 @@ definitions:
       pip:
         pyjson
 
-  - ros_dep: ros
+  - framework: ros
     deps:
       zoro: any
     extra_deps:
