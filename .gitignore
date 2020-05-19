@@ -1,0 +1,13 @@
+*.pyc
+__pycache__/
+.pytest_cache/
+/.develop/
+/.release/
+
+# IDE configurations
+.idea/
+.vscode/
+
+# do not include libsolv solv.py
+solv.py
+_solv.so
