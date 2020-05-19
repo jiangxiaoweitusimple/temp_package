@@ -42,7 +42,7 @@ definitions:
       zoro: any
     extra_deps:
       apt:
-        nltk
+        six
       pip:
         pygments
   

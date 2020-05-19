@@ -1,5 +1,13 @@
 # CHANGELOG
 
+## [0.0.9] - 2020-09-24
+### Changed
+- test
+
+## [0.0.8] - 2020-09-24
+### Changed
+- test
+
 ## [0.0.7] - 2020-09-24
 ### Changed
 - test
