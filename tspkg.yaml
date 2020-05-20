@@ -41,8 +41,8 @@ definitions:
     deps:
       zoro: any
     extra_deps:
-      apt:
-        six
+      # apt:
+      #   six
       pip:
         pygments
   
