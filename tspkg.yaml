@@ -2,56 +2,56 @@ name: temp_package
 format_version: 1.0.0
 version: __from_changelog__
 
-# deps:
-#   ts_rpc: any
+deps:
+  ts_rpc: any
 
-# extra_deps:
-#   apt:
-#     htop
-#   pip:
-#     pytest
+extra_deps:
+  apt:
+    htop
+  pip:
+    pytest
 
-# extra_build_deps:
-#   apt:
-#     swig
-#   pip:
-#     Cython
+extra_build_deps:
+  apt:
+    swig
+  pip:
+    Cython
 
-# definitions:
-#   - framework: zoro
-#     deps:
-#       zoro: any
-#     extra_deps:
-#       apt:
-#         tree
-#       pip:
-#         pyyaml
+definitions:
+  - framework: zoro
+    deps:
+      zoro: any
+    extra_deps:
+      apt:
+        tree
+      pip:
+        pyyaml
 
-#   - system: ubuntu-16.04
-#     framework: ros
-#     deps:
-#       zoro: any
-#     extra_deps:
-#       apt:
-#         iputils-ping
-#       pip:
-#         pyjson
+  - system: ubuntu-16.04
+    framework: ros
+    deps:
+      zoro: any
+    extra_deps:
+      apt:
+        iputils-ping
+      pip:
+        pyjson
 
-#   - framework: ros
-#     deps:
-#       zoro: any
-#     extra_deps:
-#       # apt:
-#       #   six
-#       pip:
-#         pygments
+  - framework: ros
+    deps:
+      zoro: any
+    extra_deps:
+      # apt:
+      #   six
+      pip:
+        pygments
   
-#   - python: 3.5
-#     extra_deps:
-#       apt:
-#         zlib1g-dev
-#       pip:
-#         mkdocs
+  - python: 3.5
+    extra_deps:
+      apt:
+        zlib1g-dev
+      pip:
+        mkdocs
 
 build: |
   install_python 3 src/temp_package
